@@ -7,10 +7,7 @@
     "jupyterlab",
     "jupyterlab-extension"
   ],
-  "homepage": "https://github.com/my_name/myextension",
-  "bugs": {
-    "url": "https://github.com/my_name/myextension/issues"
-  },
+  "homepage": "https://github.com/TK-21st/jupyterlab-apod-dynext",
   "license": "BSD-3-Clause",
   "author": "Tingkai Liu",
   "files": [
@@ -22,7 +19,7 @@
   "style": "style/index.css",
   "repository": {
     "type": "git",
-    "url": "https://github.com/my_name/myextension.git"
+    "url": "https://github.com/TK-21st/jupyterlab-apod-dynext.git"
   },
   "scripts": {
     "build": "tsc",
@@ -30,8 +27,7 @@
     "eslint": "eslint . --ext .ts,.tsx --fix",
     "eslint:check": "eslint . --ext .ts,.tsx",
     "prepare": "jlpm run clean && jlpm run build",
-    "watch": "tsc -w", 
-    "watch:dev": "tsc -w & webpack -w"
+    "watch": "tsc -w"
   },
   "dependencies": {
     "@jupyterlab/application": "^2.0.0"
